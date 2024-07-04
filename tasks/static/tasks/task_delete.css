@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffebee;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #9b9a9a;
+}
+
+.header {
+    padding: 0.5rem 0 0 1.2rem;
+    background-color: #006666;
+    border-radius: 15px 15px 0 0;
+}
+
+.confirm-delete {
+    margin: 1rem;
+    font-size: 1.05rem;
+}
+
+.container button {
+    margin-top: 0.5rem;
+    padding: 5px;
+    border: 1px solid #9b9a9a;
+    border-radius: 0;
+    font-size: 1.05rem;
+    cursor: pointer;
+}

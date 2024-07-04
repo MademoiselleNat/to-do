@@ -1,0 +1,25 @@
+body {
+    background: #fff url("images/3984178_2108762.svg") no-repeat;
+    background-position: right;
+}
+
+.container {
+    height: 100vh;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.container p {
+    font-size: 1.5rem;
+}
+
+.container button {
+    margin: 1rem 0.5rem 0 0;
+    font-weight: 500;
+}

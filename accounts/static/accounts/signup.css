@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #006666;
+    box-shadow: 5px 5px 10px #9b9a9a;
+    border-radius: 15px;
+    color: #ffebee;
+    padding: 2rem;
+}
+
+.container h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.login_option {
+    text-align: center;
+}
+
+.login_option a {
+    text-decoration: none;
+    color: #ffebee;
+}
+
+.login_option a:hover {
+    font-size: 1.05rem;
+}

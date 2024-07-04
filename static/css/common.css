@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Karla&family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    color: #006666;
+}
+
+.container h1 {
+    font-size: 4rem;
+}
+
+.container button a {
+    padding: 1.5rem 0.75rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #006666;
+    font-weight: 500;
+}
+
+.container button {
+    background-color: #ffebee;
+    border: 2px solid #006666;
+    border-radius: 10px;
+}
